@@ -11,3 +11,37 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Header-Sec{
+  width:100%;
+  background:#A79D9D;
+  padding:0.5%;
+}
+.Header-Sec h1{
+  color:white;
+}
+.Header-Sec h1:hover{
+color:yellow;
+cursor: pointer;
+}
+.Image-sec{
+  width:100%;
+  height:10%;
+  margin-bottom:10%
+}
+.Image-sec img{
+width:20%;
+height:50%;
+}
+.FooterSec{
+  width:100%;
+  background:#A79D9D;
+  padding:0.1%;
+}
+.FooterSec h6{
+  color:white;
+}
+.FooterSec  h6:hover{
+  color:yellow;
+  cursor: pointer;
+  }
