@@ -36,14 +36,61 @@ cursor: pointer;
   position: relative;
   text-align: center;
   color: white;
- 
-}
+ }
+
+ @media (max-width: 920px){
+  .Image-sec{
+   margin-bottom: 40%;
+
+  }
+   }
+   @media (max-width: 650px){
+    .Image-sec{
+     margin-bottom: 60%;
+  
+    }
+     }
+     @media (max-width: 516px){
+      .Image-sec{
+       margin-bottom: 70%;
+    
+      }
+       }
+       @media (max-width: 650px){
+        .Image-sec{
+         margin-bottom: 70%;
+      
+        }
+         }
+
 .Image-sec img{
 width:50%;
 opacity: 0.8;
-border-radius: 100px;
+border-radius: 10%;
 margin-top:1%;
 }
+
+@media (max-width:950px){
+  .Image-sec img{
+    
+    font-size: 0.5rem;
+    line-height: 250%;
+    width:60%;
+ 
+   }
+ 
+
+ }
+ @media (max-width:450px){
+  .Image-sec img{
+    
+     width:80%;
+ 
+   }
+
+   }
+
+
 .Image-sec p{
   position: absolute;
   top: 50%;
@@ -53,6 +100,41 @@ margin-top:1%;
   line-height: 170%;
   font-size: 2rem;
   color:greenyellow;
+ }
+ @media (max-width:1600px){
+  .Image-sec p{
+    
+    font-size: 0.9rem;
+    line-height: 300%;
+ 
+   }
+ }
+ @media (max-width:950px){
+  .Image-sec p{
+    
+    font-size: 0.7rem;
+    line-height: 250%;
+ 
+   }
+ 
+
+ }
+ @media (max-width:950px){
+  .Image-sec p{
+    
+    font-size: 0.5rem;
+    line-height: 250%;
+ 
+   }
+ 
+
+ }
+@media(max-width: 450px){
+ .Image-sec p{
+
+  font-size:0.4rem;
+ }
+
 }
 .FooterSec{
   width:100%;
