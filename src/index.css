@@ -11,9 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.Header-Sec{
+.mainDiv{
   width:100%;
+}
+.Header-Sec{
+  width:98%;
   background:#A79D9D;
   padding:1%;
   
@@ -137,7 +139,7 @@ margin-top:1%;
 
 }
 .FooterSec{
-  width:100%;
+  width:99%;
   background:#A79D9D;
   padding:0.1%;
 }
