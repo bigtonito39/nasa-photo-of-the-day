@@ -5,7 +5,9 @@ console.log(props)
 return (
 <body>
 <header className = "Header-Sec">
- <h1>{props.title}</h1>
+ <h1>{`${props.title}`}</h1>
+ <h5>{`  by ${props.copyright} on ${props.date} `} </h5>
+
 </header>
 <section className = "Image-sec">
 <div classname = "imageMainSec">
@@ -17,8 +19,7 @@ return (
 </section>
     
     <footer className = "FooterSec">
-<h6>{` by ${props.copyright}`} </h6>
-<h6>{props.date}</h6>
+<h2>Nasa Project!</h2>
     </footer>
     </body>
 

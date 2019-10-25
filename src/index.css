@@ -15,7 +15,9 @@ code {
 .Header-Sec{
   width:100%;
   background:#A79D9D;
-  padding:0.5%;
+  padding:1%;
+  
+
 }
 .Header-Sec h1{
   color:white;
@@ -24,24 +26,44 @@ code {
 color:yellow;
 cursor: pointer;
 }
+.Header-Sec h5{
+  color:white;
+}
 .Image-sec{
   width:100%;
   height:10%;
-  margin-bottom:10%
+  margin-bottom:10%;
+  position: relative;
+  text-align: center;
+  color: white;
+ 
 }
 .Image-sec img{
-width:20%;
-height:50%;
+width:50%;
+opacity: 0.8;
+border-radius: 100px;
+margin-top:1%;
+}
+.Image-sec p{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -80%);
+  font-weight: bolder;
+  line-height: 170%;
+  font-size: 2rem;
+  color:greenyellow;
 }
 .FooterSec{
   width:100%;
   background:#A79D9D;
   padding:0.1%;
 }
-.FooterSec h6{
+.FooterSec h2{
   color:white;
+  font-weight: bolder;
 }
-.FooterSec  h6:hover{
+.FooterSec  h2:hover{
   color:yellow;
   cursor: pointer;
   }
