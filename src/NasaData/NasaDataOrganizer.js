@@ -16,6 +16,7 @@ const ImageDiv = styled.div`
 
 background-image: url(http://t0.gstatic.com/images?q=tbn:ANd9GcQ9u48pu-6IB2FnnYl_H-15le_g8Dkt5d5RN-VWiWIl_-dyJdaa);
 background-repeat: no-repeat;
+background-position: 50% 90%; 
 
   
   `;
