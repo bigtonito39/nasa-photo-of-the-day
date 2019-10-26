@@ -20,6 +20,12 @@ background-repeat: no-repeat;
   
   `;
 
+const H2Element = styled.h2 `
+
+color:white;
+
+`;
+
 const NasaDataOrganizer = props => {
 
 
@@ -40,7 +46,7 @@ return (
  <h5>{`  by ${props.copyright} on ${props.date} `} </h5>
   
  <Button onClick= {changeNumber} >Click for attendance</Button>
- <h2>{`You are the visitor number: ${props.number1}`}</h2> 
+ <H2Element>{`You are the the student ${props.number1} to visit this site!`}</H2Element> 
 </header>
 <section className = "Image-sec">
 <ImageDiv>
