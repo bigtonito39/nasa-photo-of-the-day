@@ -38,7 +38,7 @@ cursor: pointer;
   position: relative;
   text-align: center;
   color: white;
- }
+}
 
  @media (max-width: 920px){
   .Image-sec{
@@ -100,44 +100,45 @@ margin-top:1%;
   transform: translate(-50%, -80%);
   font-weight: bolder;
   line-height: 170%;
-  font-size: 2rem;
+  font-size: 1rem;
   color:greenyellow;
  }
  @media (max-width:1600px){
   .Image-sec p{
     
-    font-size: 0.9rem;
+    font-size: 0.5rem;
     line-height: 300%;
  
    }
  }
- @media (max-width:950px){
+ @media (max-width:1000px){
   .Image-sec p{
     
-    font-size: 0.7rem;
+    font-size: 0.4rem;
     line-height: 250%;
  
    }
  
 
  }
- @media (max-width:950px){
+ @media (max-width:788px){
   .Image-sec p{
     
-    font-size: 0.5rem;
+    font-size: 0.35rem;
     line-height: 250%;
  
    }
  
 
  }
-@media(max-width: 450px){
+@media(max-width: 562px){
  .Image-sec p{
 
-  font-size:0.4rem;
+  font-size:0.3rem;
  }
 
 }
+
 .FooterSec{
   width:99%;
   background:#A79D9D;
