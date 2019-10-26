@@ -161,3 +161,15 @@ margin-top:1%;
   color:yellow;
   cursor: pointer;
   }
+.ButtonDropdown{
+  margin-left: 80%;
+ 
+}
+.DropdownToggle{
+  background-color: green;
+
+}
+.DropdownItem{
+  color:green;
+  background-color:#A79D9D;
+}

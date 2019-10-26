@@ -1,6 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import styled from "styled-components";
+import DropdownButtons from "../DropDown/DropdownsButtons";
 
 const Button = styled.button`
 padding: 6px 10px;
@@ -47,7 +48,8 @@ return (
  <h5>{`  by ${props.copyright} on ${props.date} `} </h5>
   
  <Button onClick= {changeNumber} >Click for attendance</Button>
- <H2Element>{`You are the the student ${props.number1} to visit this site!`}</H2Element> 
+ <H2Element>{`You are the the student # ${props.number1} to visit this site!`}</H2Element> 
+ <DropdownButtons />
 </header>
 <section className = "Image-sec">
 <ImageDiv>
