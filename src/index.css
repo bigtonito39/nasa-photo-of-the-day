@@ -77,16 +77,16 @@ margin-top:1%;
     
     font-size: 0.5rem;
     line-height: 250%;
-    width:60%;
+    width:90%;
  
    }
  
 
  }
- @media (max-width:450px){
+ @media (max-width:506px){
   .Image-sec img{
     
-     width:80%;
+     width:100%;
  
    }
 
@@ -111,17 +111,17 @@ margin-top:1%;
  
    }
  }
- @media (max-width:1000px){
+ @media (max-width:956px){
   .Image-sec p{
     
-    font-size: 0.4rem;
+    font-size: 0.6rem;
     line-height: 250%;
  
    }
  
 
  }
- @media (max-width:788px){
+ @media (max-width:1018px){
   .Image-sec p{
     
     font-size: 0.35rem;
@@ -131,13 +131,22 @@ margin-top:1%;
  
 
  }
-@media(max-width: 562px){
+@media(max-width: 924px){
  .Image-sec p{
 
-  font-size:0.3rem;
+  font-size:0.6rem;
  }
 
 }
+@media(max-width: 756px){
+  .Image-sec p{
+ 
+   font-size:0.4rem;
+   top: 80%;
+  left: 50%;
+  }
+ 
+ }
 
 .FooterSec{
   width:99%;
